@@ -20,12 +20,7 @@ Temperature data recorded by Netatmo sensors were used to estimate:
 
 The estimated parameters were then used in a numerical solution of the heat equation:
 
-[
-\frac{\partial T}{\partial t}
-=============================
-
-D\nabla^2T + S(x,y)
-]
+\[ \frac{\partial T}{\partial t} D\nabla^2T + S(x,y) \]
 
 to simulate heat propagation inside two rooms of Habitat 1.0:
 
